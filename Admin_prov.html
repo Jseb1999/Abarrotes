@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Abarrotes Jessica - Proveedores</title>
+</head>
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <img src="" id="logo" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label>Producto</label>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                </form>
+            </div>
+            <div class="col" id="tabla">
+                <table class="table table-dark table-bordered table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Proveedor</th>
+                            <th scope="col">Clave</th>
+                            <th scope="col">Numero de proveedor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>David Eduardo</td>
+                            <td>Fonseca Villanueva</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Susana Esmeralda</td>
+                            <td>Acosta Salazar</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Juan Sebastian</td>
+                            <td>Chavez Acuña</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Andrea</td>
+                            <td>Maldonado Cruz</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label>Clave</label>
+                        <input type="text" class="form-control" placeholder="Clave">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label>Numero de proveedor</label>
+                        <input type="text" class="form-control" placeholder="Numero de producto">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label>Proveedor a Modificar</label>
+                        <input type="search" class="form-control" placeholder="Proveedir">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label>Proveedor a Eliminar</label>
+                        <input type="search" class="form-control" placeholder="Proveedor">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Modificar</button>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Eliminar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <button type="button" class="btn btn-outline-dark">Agregar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

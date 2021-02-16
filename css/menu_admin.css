@@ -1,0 +1,21 @@
+.centrado{
+    display: block;
+    margin:auto;
+    margin-top: 30%;
+    margin-left: 2.5px;
+}
+.btn-outline-secondary{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+.btn-outline-warning{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+.btn-outline-dark{
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}

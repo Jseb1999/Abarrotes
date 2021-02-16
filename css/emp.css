@@ -1,0 +1,27 @@
+.table{
+    position:relative;
+    margin:auto;
+    width:100%;
+
+}
+.table thead tr th{
+    padding:10px;
+}
+.table tbody tr td{
+    padding:10px;
+}
+.th{
+    text-align: center;
+}
+.btn-outline-dark{
+    margin: auto;
+    margin-top: 10px;
+}
+.tabla{
+    float: right;
+}
+
+.input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
